@@ -19,7 +19,7 @@ $cwd = $PWD;
 
 Set-Location "${env:FFXIV}\Tools"
 
-& "$curpython" "${env:FFXIV}\Tools\remove_old_act_logs.py"
+& "$curpython" "${env:FFXIV}\Tools\Remove-OldACTLogs.py"
 
 $exitcode = $LASTEXITCODE
 
