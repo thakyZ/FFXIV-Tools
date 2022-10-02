@@ -1,7 +1,7 @@
 import os
 import re
 
-ffxiv_folder = os.getenv("AppData")
+ffxiv_folder = os.getenv("FFXIV")
 xivlauncher = os.path.join(ffxiv_folder, "XIVLauncher")
 dalamudUI = os.path.join(xivlauncher, "dalamudUI.ini")
 dalamudUI_bak = os.path.join(xivlauncher, "dalamudUI.bak.ini")
@@ -50,7 +50,7 @@ for element in data:
         if search.group(2) != pos1 or search.group(3) != pos2 or search.group(4) != size1 or search.group(5) != size2 or translate_boolean(search.group(6)) != data[element]["collapsed"]:
             translated = translate_boolean(data[element]["collapsed"])
             file_data = re.sub(
-                regex, "[Window][({})]\nPos={},{}\nSize={},{}\nCollapsed={}".format(element, pos1, pos2, size1, size2, translated), file_data)
+                regex, "[Window][{}]\nPos={},{}\nSize={},{}\nCollapsed={}".format(element, pos1, pos2, size1, size2, translated), file_data)
 f = open(dalamudUI, "w+")
 f.write(file_data)
 f.close()
