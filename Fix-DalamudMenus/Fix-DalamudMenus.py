@@ -1,7 +1,7 @@
 import os
 import re
 
-ffxiv_folder = os.getenv("FFXIV")
+ffxiv_folder = os.getenv("AppData")
 xivlauncher = os.path.join(ffxiv_folder, "XIVLauncher")
 dalamudUI = os.path.join(xivlauncher, "dalamudUI.ini")
 dalamudUI_bak = os.path.join(xivlauncher, "dalamudUI.bak.ini")
