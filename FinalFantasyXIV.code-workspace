@@ -1,0 +1,175 @@
+{
+  "folders": [
+    {
+      "path": "../AdventurerInNeed"
+    },
+    {
+      "path": "../AetherSense"
+    },
+    {
+      "path": "../AntiAfkKick"
+    },
+    {
+      "path": "../AudibleCharacterStatus"
+    },
+    {
+      "path": "../BackendForHousingPos"
+    },
+    {
+      "path": "../BetterMinionRoulette"
+    },
+    {
+      "path": "../BetterMountRoulette"
+    },
+    {
+      "path": "../ChatCoordinates"
+    },
+    {
+      "path": "../ChatTwo"
+    },
+    {
+      "path": "../compass"
+    },
+    {
+      "path": "../deep-dungeon-tracker"
+    },
+    {
+      "path": "../DeezShade"
+    },
+    {
+      "path": "../EmoteCmdComplex"
+    },
+    {
+      "path": "../ExpandedSearchInfo"
+    },
+    {
+      "path": "../FFXIV_Vibe_Plugin"
+    },
+    {
+      "path": "../FFXIVLooseTextureCompiler"
+    },
+    {
+      "path": "../FishNotify"
+    },
+    {
+      "path": "../GatherBuddy"
+    },
+    {
+      "path": "../Glamourer"
+    },
+    {
+      "path": "../Globetrotter"
+    },
+    {
+      "path": "../heliosphere-xiv"
+    },
+    {
+      "path": "../HimbeertoniRaidTool"
+    },
+    {
+      "path": "../HudManager"
+    },
+    {
+      "path": "../Kapture"
+    },
+    {
+      "path": "../LazyLoot"
+    },
+    {
+      "path": "../LMeter"
+    },
+    {
+      "path": "../MOActionPlugin"
+    },
+    {
+      "path": "../MyDalamudPlugins"
+    },
+    {
+      "path": "../NeatNoter"
+    },
+    {
+      "path": "../OceanFishin"
+    },
+    {
+      "path": "../offline-ttmp-extractor"
+    },
+    {
+      "path": "../Palace Pal"
+    },
+    {
+      "path": "../PatMeDalamud"
+    },
+    {
+      "path": "../PeepingTom"
+    },
+    {
+      "path": "../PenumbraModForwarder"
+    },
+    {
+      "path": "../PenumbraModForwarderXAML"
+    },
+    {
+      "path": "../PriceCheck"
+    },
+    {
+      "path": "../QoLBar"
+    },
+    {
+      "path": "../ReSanctuary"
+    },
+    {
+      "path": "../ResetEnmityCommand"
+    },
+    {
+      "path": "../SliceIsRight"
+    },
+    {
+      "path": "../SoupCatUtils"
+    },
+    {
+      "path": "../Splatoon"
+    },
+    {
+      "path": "../Tallafell"
+    },
+    {
+      "path": "../Test-CompilePenumbraMods"
+    },
+    {
+      "path": "../TidyChat"
+    },
+    {
+      "path": "../Tools"
+    },
+    {
+      "path": "../WaymarkPresetPlugin"
+    },
+    {
+      "path": "../xiv-mjigrabplural-node"
+    },
+    {
+      "path": "../XivAlexander"
+    },
+    {
+      "path": "../XIVApiQuery"
+    },
+    {
+      "path": "../xivgearsetmelds"
+    },
+    {
+      "path": "../XIVSlothCombo"
+    },
+    {
+      "path": "../XLAuthenticatorNet"
+    },
+    {
+      "path": "../XLAuthenticatorNode"
+    }
+  ],
+  "settings": {
+    "git.autofetch": true,
+    "git.allowForcePush": true,
+    "git.autofetchPeriod": 1800,
+    "git.autoStash": false
+  }
+}
