@@ -17,7 +17,7 @@ Begin {
   $DefaultLocation = (Get-Item -LiteralPath $PWD);
   $GitDirectories = (Get-ChildItem -LiteralPath (Get-Item -LiteralPath $PSScriptRoot).Parent -Directory | Where-Object { Return $Null -ne (Get-Item -LiteralPath (Join-Path -Path $_.FullName -ChildPath ".git") -Force -ErrorAction SilentlyContinue) })
 
-  $Git = (Get-Command -Name "git.exe" -ErrorAction SilentlyContinue)
+  $Git = (Get-Command -Name "git" -ErrorAction SilentlyContinue)
 
   If ($Null -ne $Git) {
     $Git = $Git.Source;
@@ -31,10 +31,19 @@ Begin {
 Process {
   ForEach ($Directory in $GitDirectories) {
     Set-Location -LiteralPath $Directory.FullName;
-    $Branches = (Use-Git "remote");
+    $Remotes = (Use-Git "remote");
 
-    ForEach ($Branch in ($Branches -Split "\n")) {
-      (Use-Git "fetch $Branch")
+    ForEach ($Remote in $Remotes.RemoteName) {
+      $Output = (Use-Git fetch $Remote --dry-run)
+      $GottenUpdates = (($Output.GitOutput -Split "\n") | Select-String -Pattern "^\s+(?:\+\s+)?[0-9a-f]{8}\.\.\.?[0-9a-f]{8}\s+([^\s]+)\s+->\s+([^\s]+)");
+      If ($Null -ne $GottenUpdates -and $GottenUpdates.Matches.Count -gt 0) {
+        Write-Host -ForegroundColor "Blue" -Object "$($Directory.Name) has updates on:"
+        ForEach ($BranchMatch in $GottenUpdates.Matches) {
+          Write-Host -ForegroundColor "Yellow" -Object "$($BranchMatch.Groups[1])" -NoNewLine
+          Write-Host -ForegroundColor "White" -Object "    ->    " -NoNewLine
+          Write-Host -ForegroundColor "Yellow" -Object "$($BranchMatch.Groups[2])"
+        }
+      }
     }
   }
 }
