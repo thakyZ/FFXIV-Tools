@@ -19,13 +19,22 @@
       "path": "../AudibleCharacterStatus"
     },
     {
+      "path": "../AutoVisor"
+    },
+    {
       "path": "../BackendForHousingPos"
+    },
+    {
+      "path": "../BetterInBlue"
     },
     {
       "path": "../BetterMinionRoulette"
     },
     {
       "path": "../BetterMountRoulette"
+    },
+    {
+      "path": "../BetterPartyFinder"
     },
     {
       "path": "../Browsingway"
@@ -38,6 +47,12 @@
     },
     {
       "path": "../compass"
+    },
+    {
+      "path": "../dalamud"
+    },
+    {
+      "path": "../DalamudPython"
     },
     {
       "path": "../deep-dungeon-tracker"
@@ -79,6 +94,9 @@
       "path": "../Globetrotter"
     },
     {
+      "path": "../GoodMemory"
+    },
+    {
       "path": "../heliosphere-xiv"
     },
     {
@@ -100,10 +118,16 @@
       "path": "../Kapture"
     },
     {
+      "path": "../Ktisis"
+    },
+    {
       "path": "../LazyLoot"
     },
     {
       "path": "../LMeter"
+    },
+    {
+      "path": "../Macrology"
     },
     {
       "path": "../MapLinker"
@@ -118,7 +142,13 @@
       "path": "../MyDalamudPlugins"
     },
     {
+      "path": "../Namingway"
+    },
+    {
       "path": "../NeatNoter"
+    },
+    {
+      "path": "../NominaOcculta"
     },
     {
       "path": "../OceanFishin"
@@ -140,6 +170,9 @@
     },
     {
       "path": "../PenPolyApple"
+    },
+    {
+      "path": "../Penumbra"
     },
     {
       "path": "../PenumbraModForwarder"
@@ -172,6 +205,9 @@
       "path": "../SoupCatUtils"
     },
     {
+      "path": "../Speedtorium"
+    },
+    {
       "path": "../Splatoon"
     },
     {
@@ -181,6 +217,12 @@
       "path": "../Test-CompilePenumbraMods"
     },
     {
+      "path": "../TheGreatSeparator"
+    },
+    {
+      "path": "../TheHeartOfTheParty"
+    },
+    {
       "path": "../TidyChat"
     },
     {
@@ -188,6 +230,9 @@
     },
     {
       "path": "../WaymarkPresetPlugin"
+    },
+    {
+      "path": "../WhosTalking"
     },
     {
       "path": "../xiv-mjigrabmeta-node"
@@ -215,6 +260,21 @@
     },
     {
       "path": "../XIVSlothCombo"
+    },
+    {
+      "path": "../XIVSlothCombo2"
+    },
+    {
+      "path": "../XIVSlothCombo3"
+    },
+    {
+      "path": "../XIVSlothCombo4"
+    },
+    {
+      "path": "../XIVSnapper"
+    },
+    {
+      "path": "../xl-authenticator"
     },
     {
       "path": "../XLAuthenticatorNet"
