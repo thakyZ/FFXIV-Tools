@@ -262,15 +262,6 @@
       "path": "../XIVSlothCombo"
     },
     {
-      "path": "../XIVSlothCombo2"
-    },
-    {
-      "path": "../XIVSlothCombo3"
-    },
-    {
-      "path": "../XIVSlothCombo4"
-    },
-    {
       "path": "../XIVSnapper"
     },
     {
@@ -286,7 +277,7 @@
   "settings": {
     "git.autofetch": false,
     "git.allowForcePush": true,
-    "git.autofetchPeriod": 1800,
+    "git.autofetchPeriod": -1,
     "git.autoStash": false,
     "cSpell.words": [
       "autofetch",
@@ -344,6 +335,11 @@
     "csharp.inlayHints.enableInlayHintsForImplicitVariableTypes": true,
     "csharp.inlayHints.enableInlayHintsForLambdaParameterTypes": true,
     "csharp.inlayHints.enableInlayHintsForImplicitObjectCreation": true,
-    "dotnet.completion.showCompletionItemsFromUnimportedNamespaces": true
+    "dotnet.completion.showCompletionItemsFromUnimportedNamespaces": true,
+    "git.autorefresh": false,
+    "git.alwaysSignOff": true,
+    "git.autoRepositoryDetection": false,
+    "git.detectSubmodules": false,
+    "git.closeDiffOnOperation": false,
   }
 }
